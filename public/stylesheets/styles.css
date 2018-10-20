@@ -1,0 +1,162 @@
+body{
+    font-family: "Fjalla One", sans-serif;
+    letter-spacing: 1px;
+    background-color: #fff;
+}
+
+#fill {
+	/* height: 100%; */
+	width: 100%;
+	/* position: relative; */
+	margin: 0 auto;
+}
+
+
+/* Navbar styles */
+.navbar {
+	padding: .7rem 1rem;
+	opacity: 0.85;
+	color: white;
+}
+
+.navbar:hover {
+	opacity: 1;
+}
+
+.navbar a,
+.navbar a:link,
+.navbar a:visited {
+	color: white;
+	opacity: 0.9;
+}
+
+.navbar a:hover {
+	opacity: 1;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.dropdown-item {
+	color: #4c9d2f;
+	opacity: inherit;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#white-back {
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	padding: 45px 0;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.accordion-link {
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	background-color: transparent;
+	cursor: pointer;
+	color: #4c9b2f;
+	font-weight: 400;
+}
+
+.accordion-link:focus {
+	outline: none;
+}
+
+.accordion-link:hover {
+	color: rgba(76,157,47, 0.8);
+}
+
+.card-header {
+	background-color: rgba(76,157,47, 0.19);
+}
+
+.btn-outline-info {
+	border-color: #4c9d2f;
+	color: #4c9d2f;
+}
+
+.btn-outline-info:hover{
+	background-color: #4c9d2f;
+	border-color: #4c9d2f; 
+}
+
+.btn-outline-info:active {
+	border-color: #4c9d2f;
+	background-color: #4c9d2f;
+}
+
+/* Slideshow Styles/Animation */
+
+#home-header, #hero{
+	z-index: 1;
+	position: relative;
+	text-align: center;
+	padding-top: 10vh;
+}
+
+div#home-header {
+	position: absolute;
+	z-index: 40;
+	color: white;
+	width: 100%;
+	background: linear-gradient(to right, rgba(76,157,47, 0.8), rgba(76,157,47,0));
+	clip-path: polygon(0 0%, 800% 0, 100% 80%, 0% 100%);
+}
+
+div#slideshow.carousel {
+	z-index: 0;
+	position: absolute;
+}
+
+a.to-front {
+	z-index: 1040;
+}
+
+/*Footer Styles */
+
+.footer {
+	background-color: #4c9b2f;
+	color: #fff;
+}
+
+.icons {
+	/* height: 100%; */
+	/* width: 100%; */
+	/* display: flex; */
+	color: #fff;
+}
+
+.icons a:link,
+.icons a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+img {
+	z-index: -1;
+	position: relative;
+}
+.color-mask{
+	background-color: rgba( 150,150,150,0.7);
+	z-index: 2;
+}
