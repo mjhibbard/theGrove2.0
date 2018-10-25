@@ -6,11 +6,15 @@
 body{
     font-family: "Fjalla One", sans-serif;
     letter-spacing: 1px;
-	background-color: #fff;
+	background: #fff;
 	font-size: 12px;
 }
 
-
+div.splash img {
+	margin-top: 1.525rem;
+	max-width: 32%;
+	height: auto;
+}
 
 /* Navbar styles */
 nav {
@@ -19,7 +23,7 @@ nav {
 	justify-content: space-between;
 	background-color: #4c9b2f;
 	padding: .7rem 1rem;
-	/* opacity: 0.85; */
+	opacity: 0.85;
 	color: white;
 	font-size: 1.125rem;
 	position: fixed;
@@ -30,7 +34,9 @@ nav ul {
 	list-style: none;
 	overflow: hidden;
 }
-.nav-right ul {
+.nav-right > ul {
+	padding: 0;
+	margin-right: 2rem;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: end;
@@ -40,13 +46,16 @@ nav ul li,
 nav ul li ul li {
 	padding: 0.3rem;
 }
-.dropDown-content ul {
+nav ul li ul{
+	position: absolute;
+	background: #4c9b2f;
+	padding: 0.5rem;
 	display: flex;
 	flex-flow: column nowrap;
 	align-content: space-around;
+	cursor: pointer;
+	box-shadow: 10px 20px 25px rgba(0, 0, 0, 0.5);
 }
-
-
 nav a,
 nav a:link,
 nav a:visited {
@@ -54,31 +63,36 @@ nav a:visited {
 	text-decoration: none;
 	list-style: none;
 	color: white;
-	/* opacity: 0.9; */
+	opacity: 0.9;
 }
-/* nav:hover {
+nav:hover {
 	opacity: 1;
 }
-
 nav a:hover {
 	opacity: 1;
-} */
-
- nav .dropDown .dropDown-content {
+}
+nav .dropDown .dropDown-content {
 	display: none;
 }
-/* .hidden-icon {
+.hidden-icon {
 	display: none;
-} */
+}
+@media(max-width: 680px) {
+	nav {
+		flex-flow: column wrap;
+	}
+}
+/* END NAV STYLES */
 
-.image {
+
+/* .image {
 	display: flex;
 	flex-flow: row wrap;
-}
+} */
 img {
 	filter: grayscale(70%);
-	height: 50vh;
-	width: 40vw;
+	/* height: 50vh;
+	width: 40vw; */
 }
 
 
