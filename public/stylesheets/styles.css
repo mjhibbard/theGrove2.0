@@ -201,6 +201,29 @@ nav .dropDown .dropDown-content {
 /* END NAV STYLES */
 
 /*Story Page Styles */
+.story-page__header {
+	width: 100%;
+	height: 35vw;
+	background-image: url("../images/store-front-backside.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: inset 0 -10vw 15vw 0 black;
+}
+.story-page-header__copy {
+	position: absolute;
+	top: 28vw;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 1vw;
+	font-size: 4.5vw;
+	color: white;
+	border-bottom: solid 1vw #4c9b2f;
+	text-transform: uppercase;
+}
+.story-page-leader__header {
+	text-align: center;
+	font-size: 3.5vw;
+}
 .story-page__card-wrap {
 	display: flex;
 	width: 80%;
@@ -225,29 +248,43 @@ nav .dropDown .dropDown-content {
 .story-page__card-img-1 {
 	background-image: url("../images/Worship-thegrove.jpg");
 }
-.story-page__leader-card-img {
+.story-page-leader__card-img {
 	height: 15vw;
 	background: center center/cover no-repeat;
 	width: 100%;
 }
-.story-page__card-headshot-1 {
+.story-page-leader__card-headshot-1 {
 	background-image: url("../images/headshot-unsplash.jpg");
 }
-.story-page__leader-wrap {
+.story-page-leader__wrap {
 	display: flex;
 	justify-content: space-around;
 	margin: 5vw 0;
 }
-.story-page__leader-card-wrap {
+.story-page-leader__card-wrap {
 	width: 25%;
 	padding: 2%;
 	box-shadow: 0vw 1vw 1vw 0vw #333;
 	background-color: #fff;
 }
-.story-page__leader-card-copy {
-	font-size: 2vw;
+.story-page-leader__card-copy-wrap {
 	padding: 1.5vw 0;
 	width: 100%;
+}
+.story-page-leader__card-name {
+	font-size: 2vw;
+	text-align: center;
+	margin-bottom: 1vw;
+}
+.story-page-leader__card-title {
+	font-size: 1.5vw;
+	text-align: center;
+	margin-bottom: 1vw;
+}
+.story-page-leader__card-copy {
+	font-size: 1.25vw;
+	padding-top: 1vw;
+	border-top: solid 0.25vw #4c9b2f;
 }
 
 /* Coffee House Styles */
@@ -341,6 +378,40 @@ nav .dropDown .dropDown-content {
 	transform: rotate(-20deg);
 }
 
+/* About Page "Mission, Vision Page" */
+.about-page {
+	display: flex;
+}
+.about-page__header {
+	text-align: center;
+	font-size: 4vw;
+	margin-bottom: 3vw;
+}
+.about-page__sidebar {
+	width: 30%;
+	background-image: url("../images/cross.jpg");
+	background-position: 70%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset -5vw 2vw 6vw 1vw #eee;
+}
+.about-page__wrap {
+	width: 70%;
+	padding: 10vw 10vw 5vw 4vw;
+}
+.about-page__copy {
+	font-size: 1.15vw;
+	margin: 1vw 2vw 2vw;
+	color: #1a1a1a;	
+}
+.about-page-copy__title {
+	font-size: 1.5vw;
+}
+.about-page__statement{
+	font-size: 2.5vw;
+	text-transform: capitalize;
+	margin: 0 auto;
+}
 
 /*Footer Styles */
 .footer__wrap {
@@ -353,9 +424,9 @@ nav .dropDown .dropDown-content {
 	padding: 0 5vw;
 	box-shadow: 0 100vh 0 100vh #4c9b2f;
 }
-.footer-icons__wrap {
+/* .footer-icons__wrap {
 
-}
+} */
 .footer-icons__copy {
 	font-size: 3vw;
 }

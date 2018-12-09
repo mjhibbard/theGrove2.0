@@ -23,4 +23,7 @@ express()
 //indygrove.church is site and through godaddy.com
 //nodemon index.js
 
+//local tunnel
+//lt --port 3000
+
 //ssh -l username domain -p (port)
