@@ -413,6 +413,85 @@ nav .dropDown .dropDown-content {
 	margin: 0 auto;
 }
 
+/* Call Page Styles */
+
+.call-page-item__wrap {
+	padding: 2vw;
+}
+.call-page__header-wrap {
+	background: url("../images/Andy-preaching.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 -10vw 10vw 0 black;
+}
+.call-page__header {
+	color: white;
+	text-transform: uppercase;
+	font-size: 15vw;
+	width: 30%;
+	padding: 6vw 0 2vw 10vw;
+}
+.call-page__header-copy {
+	font-size: 2vw;
+	text-align: center;
+	padding: 3vw;
+	background-color: black;
+	color: white;
+}
+.call-page-section__wrap {
+	display: flex;
+	margin: 5vw 3vw;
+	border-bottom: .75vw solid #4c9b2f;
+}
+.call-page-section__content-wrap {
+	width: 60%;
+}
+.call-page-section__images-wrap {
+	width: 40%;
+	position: relative;
+	padding-top: 2vw;
+	display: flex;
+	align-items: center;
+	left: 10vw;
+}
+.call-page-section__image-wrap {
+	width: 60%;
+	position: absolute;
+	transition: all .5s;
+}
+.call-page-section__image {
+	transition: all .5s;
+}
+.call-page-section__image:hover {
+	transform: scale(1.1);
+	box-shadow: 0 1vw 10vw -1vw black;
+}
+.call-page-section__images-wrap:hover .call-page-section__image:not(:hover) {
+	opacity: 0.9;
+	filter: grayscale(75%);
+}
+.call-page-section__image-wrap:hover {
+	z-index: 5;
+}
+.call-page-section__image-wrap--img1 {
+	top: 4vw;
+	left: -6vw;
+}
+.call-page-section__image-wrap--img2 {
+	top: 0;
+	left: 0;
+}
+.call-page-section__image-wrap--img3 {
+	top: 8vw;
+	left: 6vw;
+}
+.call-page-section__image {
+	width: 100%;
+}
+.call-page-item__copy {
+	font-size: 1.5vw;
+}
+
 /*Footer Styles */
 .footer__wrap {
 	background-color: #4c9b2f;
@@ -476,3 +555,4 @@ div.topBotomBordersOut li:hover:before, div.topBotomBordersOut li:hover:after
     opacity: 1;
     transform: translateY(0px);
 }
+
