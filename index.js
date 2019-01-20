@@ -18,7 +18,7 @@ express()
     .get('/showcase', (req, res) => res.render('showcase'))
     .get('/splash', (req, res) => res.render('splash'))
     .get('/media', (req, res) => res.redirect('/about'))
-    .listen(PORT, (req, res) => console.log("The Grove server is Listening!!"))
+    .listen(PORT, (req, res) => console.log(`The Grove server is running on http://localhost:${PORT}/`))
 
 //indygrove.church is site and through godaddy.com
 //nodemon index.js

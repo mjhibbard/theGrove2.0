@@ -129,7 +129,6 @@ div.flex {
 .header__nav-logo--img {
 	height: 70px;
 	width: auto;
-	transform: rotate(-20deg);
 }
 nav ul {
 	list-style: none;
@@ -374,9 +373,7 @@ nav .dropDown .dropDown-content {
 	font-size: 2vw;
 	margin: 1vw 0;
 }
-.coffee-menu__header-img {
-	transform: rotate(-20deg);
-}
+
 
 /* About Page "Mission, Vision Page" */
 .about-page {
@@ -522,7 +519,6 @@ nav .dropDown .dropDown-content {
 }
 .footer-img__img {
 	width: 100%;
-	transform: rotate(-20deg);
 }
 
 /* Top and Bottom borders go out */
