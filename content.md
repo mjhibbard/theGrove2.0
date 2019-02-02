@@ -1,3 +1,18 @@
+todo for this website:
+*mobile friendly
+*swap out png logo files for rotated ones
+*insert content and photos
+*finalize navbar styles/effects
+*
+
+
+
+
+
+
+
+
+
 ****** Bios
 
 Andy Johnson - Lead Pastor
