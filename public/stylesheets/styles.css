@@ -733,8 +733,8 @@ div.topBotomBordersOut li:hover:before, div.topBotomBordersOut li:hover:after
 	}
 	
 	/* About Page "Mission, Vision Page" */
-	.about-page {
-	}
+	/* .about-page {
+	} */
 	.about-page__header {
 		font-size: 4vw;
 		margin-bottom: 3vw;
