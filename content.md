@@ -1,9 +1,11 @@
 todo for this website:
-*mobile friendly
-*swap out png logo files for rotated ones
-*insert content and photos
+*mobile friendly/optimize
+*swap out logo for hover in nav and footer
+*insert content and photos (some stock for call page)
 *finalize navbar styles/effects
-*
+*make physical address and phone number prominent!!
+*new htag youtube channel, update footer and server files
+
 
 
 
@@ -15,9 +17,13 @@ todo for this website:
 
 ****** Bios
 # Coffee disclaimer
-
+Put on coffee page:
 The grove coffee house ia a ministry of the grove community church and is run entirely by volunteers.
-our coffee is locally roasted by Sweet Crema Coffee of Rickreall, Oregon and our baristas are trained to make your drink to your satisfaction. All of our prices are suggested donation. all the tips we receive for the coffee house ministry are turned into scholarships to help kids go to camp in the summer. we encourage you to come and enjoy an excellent warm coffee or tea, have a great conversation, and spend time in our unique setting. we are here to serve our community, so stop on in!
+All of our prices are suggested donation. 
+we encourage you to come and enjoy an excellent warm coffee or tea, have a great conversation, and spend time in our unique setting. we are here to serve our community, so stop on in!
+
+not needed:
+our coffee is locally roasted by Sweet Crema Coffee of Rickreall, Oregon and our baristas are trained to make your drink to your satisfaction. all the tips we receive for the coffee house ministry are turned into scholarships to help kids go to camp in the summer. 
 
 /
 Store hours:
