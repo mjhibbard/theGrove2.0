@@ -1,3 +1,19 @@
+todo for this website:
+*mobile friendly
+*swap out png logo files for rotated ones
+*insert content and photos
+*finalize navbar styles/effects
+*
+
+
+
+
+
+
+
+
+
+****** Bios
 # Coffee disclaimer
 
 The grove coffee house ia a ministry of the grove community church and is run entirely by volunteers.
