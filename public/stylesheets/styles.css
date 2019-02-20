@@ -395,8 +395,11 @@ div.flex {
 }
 .coffee-sidebar__info {
 	font-size: 2vw;
-	margin: 3vw 0;
+	margin-top: 0;
 	text-transform: uppercase;
+}
+.coffee-sidebar__info--title {
+	margin: 3vw 0 1vw 0;
 }
 .coffee__menu {
 	width: 75%;
@@ -418,7 +421,7 @@ div.flex {
 .coffee-menu__content {
 	display: flex;
 	color: #4c9b2f;
-	margin: 0 6vw 6vw;
+	margin: 0 5vw 5vw;
 }
 .coffee-menu__content-col {
 	width: 50%;
@@ -428,7 +431,7 @@ div.flex {
 	font-size: 4vw;
 	text-transform: uppercase;
 	border-bottom: 4px solid #4c9b2f;
-	width: 50%;
+	width: 60%;
 	margin: 2vw auto;
 }
 .coffee-menu__content-copy {
@@ -475,7 +478,7 @@ div.flex {
 
 /* Call Page Styles */
 .call-page-item__wrap {
-	padding: 2vw;
+	padding: 2vw 0 2vw 2vw;
 }
 .call-page__header-wrap {
 	background: url("../images/Andy-preaching.jpg");
@@ -502,13 +505,15 @@ div.flex {
 	margin: 5vw 3vw;
 	border-bottom: .75vw solid #4c9b2f;
 }
+.call-page-section__wrap--no-border {
+	border: none;
+}
 .call-page-section__content-wrap {
 	width: 60%;
 }
 .call-page-section__images-wrap {
-	width: 40%;
+	width: 32%;
 	position: relative;
-	padding-top: 2vw;
 	display: flex;
 	align-items: center;
 	left: 10vw;
@@ -782,7 +787,7 @@ div.flex {
 	
 	/* Coffee House Styles */
 	
-	.coffee__header {
+	/* .coffee__header {
 		height: 40vw;
 	}
 	.coffee-header__copy {
@@ -820,7 +825,7 @@ div.flex {
 	.coffee-menu__content-copy {
 		font-size: 2vw;
 		margin: 1vw 0;
-	}
+	} */
 	
 	/* About Page "Mission, Vision Page" */
 	/* .about-page {
