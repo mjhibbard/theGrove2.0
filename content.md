@@ -1,5 +1,7 @@
 # todo for this website
 
+*Set spans on call page on each of the Verse and Response texts, find prominent image for display on mobile size and insert into ejs file for no display on larger-than-mobile sizes.
+
 *mobile friendly/optimize
 *swap out logo for hover in nav and footer
 *insert content and photos (some stock for call page)
@@ -9,7 +11,9 @@
 
 ******Coffee disclaimer
 Put on coffee page:
-The grove coffee house ia a ministry of the grove community church and is run entirely by volunteers.
+The grove coffee house is a ministry of the grove community church and is run entirely by volunteers.
+
+Not relevent online: (if you are going in there, the purpose is for coffee and this info will be there to see already. if you really want it in there, we can talk about it..........)
 All of our prices are suggested donation.
 we encourage you to come and enjoy an excellent warm coffee or tea, have a great conversation, and spend time in our unique setting. we are here to serve our community, so stop on in!
 
