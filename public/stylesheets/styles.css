@@ -793,7 +793,7 @@ nav .dropDown .dropDown-content {
 
   /* Coffee House Styles */
 
-  /* .coffee__header {
+  .coffee__header {
 		height: 40vw;
 	}
 	.coffee-header__copy {
@@ -810,7 +810,15 @@ nav .dropDown .dropDown-content {
 	.coffee-sidebar__info {
 		font-size: 2vw;
 		margin: 3vw 0;	
-	}
+  }
+  .coffee__content-wrap {
+    flex-direction: row;
+  }
+  .coffee__menu {
+    width: 75%;
+    border-top: none;
+    border-bottom: none;
+  }
 	.coffee-menu__header-title {
 		margin: 2vw auto;
 	}
@@ -818,20 +826,21 @@ nav .dropDown .dropDown-content {
 		width: 15vw;
 	}
 	.coffee-menu__content {
-		margin: 0 6vw 6vw;
+    margin: 0 6vw 6vw;
+    flex-direction: row;
 	}
 	.coffee-menu__content-col {
 		width: 50%;
 	}
 	.coffee-menu__content-title {
 		font-size: 4vw;
-		width: 50%;
+		width: 66%;
 		margin: 2vw auto;
 	}
 	.coffee-menu__content-copy {
 		font-size: 2vw;
 		margin: 1vw 0;
-	} */
+	}
 
   /* About Page "Mission, Vision Page" */
   .about-page {
