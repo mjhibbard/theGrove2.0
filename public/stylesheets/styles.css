@@ -1,3 +1,11 @@
+/* Core */
+:root {
+  --main-green: #4c9b2f;
+  --med-green: #264e18;
+  --darker-green: #13270c;
+  --bg-white-gray: #eee;
+  --med-gray: #333;
+}
 * {
   scroll-behavior: smooth;
   margin: 0;
@@ -5,7 +13,7 @@
 body {
   font-family: "Fjalla One", sans-serif;
   letter-spacing: 1px;
-  background: #eee;
+  background: var(--bg-white-gray);
   font-size: 1.5vw;
 }
 
@@ -16,7 +24,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  background-color: #333;
+  background-color: var(--med-gray);
   padding: 0.3vw 0.7vw;
   opacity: 0.7;
   color: #fff;
@@ -66,7 +74,7 @@ nav ul li ul li {
 }
 nav ul li ul {
   position: absolute;
-  background: #4c9b2f;
+  background: var(--main-green);
   padding: 0.5vw;
   display: flex;
   flex-flow: column nowrap;
@@ -76,7 +84,7 @@ nav ul li ul {
   box-shadow: 1vw 2vw 2.5vw rgba(0, 0, 0, 0.5);
 }
 nav ul li ul li a {
-  color: #4c9b2f;
+  color: var(--main-green);
 }
 nav a,
 nav a:link,
@@ -89,7 +97,7 @@ nav a:visited {
 }
 nav:hover {
   opacity: 1;
-  background: #4c9b2f;
+  background: var(--main-green);
   color: #fff;
   transition: all 0.3s;
 }
@@ -129,7 +137,7 @@ nav .dropDown .dropDown-content {
   color: #fff;
   text-align: center;
   width: 80%;
-  background-color: #333;
+  background-color: var(--med-gray);
   padding: 1vw 0;
   opacity: 0.7;
   font-size: 3vw;
@@ -143,7 +151,7 @@ nav .dropDown .dropDown-content {
   transform: translateX(-50%);
   color: white;
   font-size: 1.5vw;
-  background-color: #333;
+  background-color: var(--med-gray);
   padding: 1.25vw 0;
   opacity: 0.7;
   width: 50%;
@@ -160,7 +168,7 @@ nav .dropDown .dropDown-content {
   color: #fff;
   text-align: center;
   width: 100%;
-  background-color: #333;
+  background-color: var(--med-gray);
   padding: 1vw 0;
   opacity: 0.7;
   font-size: 5vw;
@@ -173,7 +181,7 @@ nav .dropDown .dropDown-content {
   justify-content: space-between;
 }
 .main-page-title-img__wrap--bgcolor {
-  background-color: #333;
+  background-color: var(--med-gray);
 }
 .main-page__title-wrap {
   width: 100%;
@@ -188,7 +196,7 @@ nav .dropDown .dropDown-content {
   color: #fff;
   text-align: center;
   width: 100%;
-  background-color: #333;
+  background-color: var(--med-gray);
   padding: 1vw 0;
   opacity: 0.7;
   font-size: 12vw;
@@ -202,7 +210,7 @@ nav .dropDown .dropDown-content {
   transform: translateX(-50%);
   color: white;
   font-size: 5vw;
-  background-color: #333;
+  background-color: var(--med-gray);
   padding: 1vw 0;
   opacity: 0.7;
   width: 100%;
@@ -242,8 +250,8 @@ nav .dropDown .dropDown-content {
 .main-page__card-copy {
   width: 100%;
   font-size: 5vw;
-  border-right: 0.5vw solid #333;
-  border-left: 0.5vw solid #333;
+  border-right: 0.5vw solid var(--med-gray);
+  border-left: 0.5vw solid var(--med-gray);
   padding: 1.5vw;
 }
 .main-page__card-img {
@@ -274,7 +282,7 @@ nav .dropDown .dropDown-content {
   padding: 1vw;
   font-size: 4.5vw;
   color: white;
-  border-bottom: solid 1vw #4c9b2f;
+  border-bottom: solid 1vw var(--main-green);
   text-transform: uppercase;
 }
 .story-page-leader__header {
@@ -291,8 +299,8 @@ nav .dropDown .dropDown-content {
 .story-page__card-copy {
   width: 50%;
   font-size: 2vw;
-  border-right: 0.5vw solid #333;
-  border-left: 0.5vw solid #333;
+  border-right: 0.5vw solid var(--med-gray);
+  border-left: 0.5vw solid var(--med-gray);
   padding: 1.5vw;
 }
 .story-page__card-img {
@@ -304,9 +312,15 @@ nav .dropDown .dropDown-content {
 .story-page__card-img-1 {
   background-image: url("../images/Worship-thegrove.jpg");
 }
+.story-page__card-img-2 {
+  background-image: url("../images/Worship-thegrove.jpg");
+}
+.story-page__card-img-3 {
+  background-image: url("../images/Worship-thegrove.jpg");
+}
 .story-page__separator {
   width: 80%;
-  border-bottom: 0.5vw solid #333;
+  border-bottom: 0.5vw solid var(--med-gray);
   margin: 10vw auto;
 }
 .story-page-leader__card-img {
@@ -315,7 +329,13 @@ nav .dropDown .dropDown-content {
   width: 100%;
 }
 .story-page-leader__card-headshot-1 {
-  background-image: url("../images/headshot-unsplash.jpg");
+  background-image: url("../images/Andy-profile.jpg");
+}
+.story-page-leader__card-headshot-2 {
+  background-image: url("../images/mikeprofilepic.jpg");
+}
+.story-page-leader__card-headshot-3 {
+  background-image: url("../images/leadershipteam_placeholder.jpg");
 }
 .story-page-leader__wrap {
   display: flex;
@@ -325,7 +345,7 @@ nav .dropDown .dropDown-content {
 .story-page-leader__card-wrap {
   width: 25%;
   padding: 2%;
-  box-shadow: 0vw 1vw 1vw 0vw #333;
+  box-shadow: 0vw 1vw 1vw 0vw var(--med-gray);
   background-color: #fff;
 }
 .story-page-leader__card-copy-wrap {
@@ -345,7 +365,7 @@ nav .dropDown .dropDown-content {
 .story-page-leader__card-copy {
   font-size: 1.25vw;
   padding-top: 1vw;
-  border-top: solid 0.25vw #4c9b2f;
+  border-top: solid 0.25vw var(--main-green);
 }
 
 /* Coffee House Styles */
@@ -354,7 +374,7 @@ nav .dropDown .dropDown-content {
   background-image: url("../images/coffee-beans.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  border-bottom: 1vw solid #4c9b2f;
+  border-bottom: 1vw solid var(--main-green);
 }
 .coffee-header__copy {
   color: white;
@@ -380,7 +400,7 @@ nav .dropDown .dropDown-content {
 }
 .coffee-sidebar__bg-color {
   position: absolute;
-  background-color: #333;
+  background-color: var(--med-gray);
   top: 0;
   left: 0;
   opacity: 0.7;
@@ -402,14 +422,14 @@ nav .dropDown .dropDown-content {
 }
 .coffee__menu {
   width: 100%;
-  border-top: 1vw solid #4c9b2f;
-  border-bottom: 1vw solid #4c9b2f;
+  border-top: 1vw solid var(--main-green);
+  border-bottom: 1vw solid var(--main-green);
 }
 .coffee-menu__header {
   text-align: center;
 }
 .coffee-menu__header-title {
-  color: #4c9b2f;
+  color: var(--main-green);
   font-size: 15vw;
   text-transform: uppercase;
   margin: 2vw auto;
@@ -419,7 +439,7 @@ nav .dropDown .dropDown-content {
 }
 .coffee-menu__content {
   display: flex;
-  color: #4c9b2f;
+  color: var(--main-green);
   margin: 0 5vw 5vw;
   flex-direction: column;
 }
@@ -431,7 +451,7 @@ nav .dropDown .dropDown-content {
 .coffee-menu__content-title {
   font-size: 10vw;
   text-transform: uppercase;
-  border-bottom: 4px solid #4c9b2f;
+  border-bottom: 4px solid var(--main-green);
   width: 60%;
   margin: 2vw auto;
 }
@@ -480,6 +500,37 @@ nav .dropDown .dropDown-content {
 .call-page-item__wrap {
   padding: 10vw 0 2vw 2vw;
 }
+.call-page-item__img {
+  height: 40vw;
+  width: 85%;
+  background: center center/cover no-repeat;
+  box-shadow: inset 0 0 10vw 0 black;
+  margin: 0 auto;
+}
+.call-page-item__img-1 {
+  background-image: url("../images/verse14.jpg");
+}
+.call-page-item__img-2 {
+  background-image: url("../images/verse15.jpg");
+}
+.call-page-item__img-3 {
+  background-image: url("../images/verse16.jpg");
+}
+.call-page-item__img-4 {
+  background-image: url("../images/verse17-crop.jpg");
+}
+.call-page-item__img-5 {
+  background-image: url("../images/verse18.jpg");
+}
+.call-page-item__img-6 {
+  background-image: url("../images/verse19.jpg");
+}
+.call-page-item__img-7 {
+  background-image: url("../images/verse20-forreals.jpg");
+}
+.call-page-item__img-8 {
+  background-image: url("../images/verse21.jpg");
+}
 .call-page__header-wrap {
   background: url("../images/Andy-preaching.jpg");
   background-repeat: no-repeat;
@@ -505,6 +556,12 @@ nav .dropDown .dropDown-content {
   display: flex;
   flex-direction: column-reverse;
   margin: 0 3vw;
+}
+.call-page-section__header {
+  font-size: 6vw;
+  text-align: center;
+  padding: 4vw;
+  order: 1;
 }
 .call-page-section__wrap--no-border {
   border: none;
@@ -558,7 +615,7 @@ nav .dropDown .dropDown-content {
   text-align: center;
 }
 .call-page-item__copy-verse {
-  border-bottom: 1vw solid #4c9b2f;
+  border-bottom: 1vw solid var(--main-green);
   padding: 2vw;
 }
 .call-page-item__copy-response {
@@ -567,12 +624,12 @@ nav .dropDown .dropDown-content {
 
 /*Footer Styles */
 .footer__wrap {
-  background-color: #4c9b2f;
+  background-color: var(--main-green);
   color: #fff;
   display: flex;
   flex-direction: column;
   padding: 5vw 0;
-  box-shadow: 0 100vh 0 100vh #4c9b2f;
+  box-shadow: 0 100vh 0 100vh var(--main-green);
 }
 .footer-icons__wrap {
   display: flex;
@@ -590,6 +647,16 @@ nav .dropDown .dropDown-content {
 .footer-icons__icon {
   color: white;
   padding: 0 3vw;
+}
+.footer-icons__icon:hover {
+  transition: all .4s;
+  transform: translateY(-5px);
+  text-shadow: 0 15px 25px rgba(0,0,0,0.4);
+}
+.footer-icons__icon:active {
+  transition: all .4s;
+  transform: translateY(-2px);
+  text-shadow: 0 7px 17px rgba(0,0,0,0.4);
 }
 .footer-img__wrap {
   width: 50%;
@@ -611,7 +678,7 @@ nav .dropDown .dropDown-content {
   background-color: white;
   font-family: inherit;
   font-size: 7vw;
-  color: #4c9b2f;
+  color: var(--main-green);
   width: 80%;
   margin: 7vw auto;
   padding: 2vw;
@@ -622,9 +689,17 @@ nav .dropDown .dropDown-content {
 }
 .footer-donate-button:hover {
   border-radius: 30px;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+}
+.footer-donate-button:active {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 17px rgba(0,0,0,0.4);
 }
 
-/* Media Queries and size adjustings */
+/* Media Queries and size adjustings
+*  screen sizes: 576px, 768, 992, 1200, 1485
+*/
 @media (max-width: 680px) {
   nav {
     flex-flow: column wrap;
@@ -632,7 +707,7 @@ nav .dropDown .dropDown-content {
 }
 
 /* Navbar media Query!!!!! */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
   .header__nav {
     display: flex;
     justify-content: space-between;
@@ -681,11 +756,6 @@ nav .dropDown .dropDown-content {
     padding: 0.5rem;
     box-shadow: 10px 20px 25px rgba(0, 0, 0, 0.5);
   }
-  /* @media(max-width: 680px) {
-		nav {
-			flex-flow: column wrap;
-		}
-	} */
   /* END NAV STYLES */
 
   /* Main Page Styles */
@@ -761,7 +831,7 @@ nav .dropDown .dropDown-content {
     margin: 0 2vw;
   }
   .story-page__separator {
-    border-bottom: 0.5vw solid #333;
+    border-bottom: 0.5vw solid var(--med-gray);
     margin: 10vw auto;
   }
   .story-page-leader__card-img {
@@ -773,7 +843,7 @@ nav .dropDown .dropDown-content {
   .story-page-leader__card-wrap {
     width: 25%;
     padding: 2%;
-    box-shadow: 0vw 1vw 1vw 0vw #333;
+    box-shadow: 0vw 1vw 1vw 0vw var(--med-gray);
   }
   .story-page-leader__card-copy-wrap {
     padding: 1.5vw 0;
@@ -792,7 +862,6 @@ nav .dropDown .dropDown-content {
   }
 
   /* Coffee House Styles */
-
   .coffee__header {
 		height: 40vw;
 	}
@@ -853,7 +922,7 @@ nav .dropDown .dropDown-content {
   .about-page__sidebar {
     display: flex;
     width: 30%;
-    box-shadow: inset -7vw 2vw 8vw -2vw #eee;
+    box-shadow: inset -7vw 2vw 8vw -2vw var(--bg-white-gray);
   }
   .about-page__wrap {
     width: 70%;
@@ -873,6 +942,9 @@ nav .dropDown .dropDown-content {
   /* Call Page Styles */
   .call-page-item__wrap {
     padding: 2vw 0 2vw 2vw;
+  }
+  .call-page-item__img {
+    display: none;
   }
   .call-page__header-wrap {
     background: url("../images/Andy-preaching.jpg");
@@ -897,7 +969,11 @@ nav .dropDown .dropDown-content {
   .call-page-section__wrap {
     display: flex;
     margin: 5vw 3vw;
-    border-bottom: 0.75vw solid #4c9b2f;
+    border-bottom: 0.75vw solid var(--main-green);
+  }
+  .call-page-section__header {
+    font-size: 4vw;
+    padding: 2vw;
   }
   .call-page-section__wrap--no-border {
     border: none;
@@ -963,7 +1039,7 @@ nav .dropDown .dropDown-content {
     justify-content: space-between;
     align-items: center;
     padding: 0 5vw;
-    box-shadow: 0 100vh 0 100vh #4c9b2f;
+    box-shadow: 0 100vh 0 100vh var(--main-green);
   }
   .footer-icons__copy {
     font-size: 3vw;
@@ -984,7 +1060,6 @@ nav .dropDown .dropDown-content {
   .footer-img__img {
     width: 100%;
   }
-
   .footer-copyright__copy,
   .footer-copyright__copy a {
     padding: 2vw 0;
