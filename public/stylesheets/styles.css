@@ -18,7 +18,7 @@ body {
 }
 
 /* Header--Navbar styles */
-.header__nav {
+/* .header__nav {
   position: fixed;
   top: 0;
   display: flex;
@@ -113,7 +113,7 @@ nav .dropDown .dropDown-content {
 }
 .active {
   display: inherit;
-}
+} */
 /* END NAV STYLES */
 
 /* Splash Page Styles */
@@ -222,10 +222,11 @@ nav .dropDown .dropDown-content {
   filter: grayscale(75%);
 }
 .main-page__title-img-side {
-  width: 25%;
+  width: 0%;
+  visibility: hidden;
 }
 .main-page__title-img-center {
-  width: 48%;
+  width: 100%;
 }
 .main-page__title-img-1 {
   background-image: url("../images/Amanda-baptism.jpg");
@@ -700,13 +701,13 @@ nav .dropDown .dropDown-content {
 /* Media Queries and size adjustings
 *  screen sizes: 576px, 768, 992, 1200, 1485
 */
-@media (max-width: 680px) {
+/* @media (max-width: 680px) {
   nav {
     flex-flow: column wrap;
   }
 }
 
-/* Navbar media Query!!!!! */
+/* Navbar media Query!!!!! 
 @media screen and (min-width: 720px) {
   .header__nav {
     display: flex;
@@ -728,11 +729,11 @@ nav .dropDown .dropDown-content {
   .header-bars__wrap {
     display: none;
   }
-}
+} */
 
 @media (min-width: 720px) {
   /* Navbar styles */
-  .header__nav {
+  /* .header__nav {
     padding: 0.3rem 0.7rem;
     font-size: 1.125rem;
   }
@@ -755,7 +756,7 @@ nav .dropDown .dropDown-content {
   nav ul li ul {
     padding: 0.5rem;
     box-shadow: 10px 20px 25px rgba(0, 0, 0, 0.5);
-  }
+  } */
   /* END NAV STYLES */
 
   /* Main Page Styles */
@@ -780,6 +781,7 @@ nav .dropDown .dropDown-content {
   }
   .main-page__title-img-side {
     width: 25%;
+    visibility: visible;
   }
   .main-page__title-img-center {
     width: 48%;
