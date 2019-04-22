@@ -1,10 +1,20 @@
 const express       = require("express");
 const path          = require("path");
+const sass          = require("node-sass-middleware");
 const PORT          = process.env.PORT || 3000;
+const destPath      = path.join(__dirname, 'public');
+
 
 
 express()
     //App Config
+    .use(sass({
+        src: __dirname + '/public',
+        dest: destPath,
+        debug: true,
+        outputStyle: "compressed",
+        response: true
+    }))
     .use(express.static(path.join(__dirname, 'public')))
     .set('views', path.join(__dirname, 'views'))
     .set('view engine', 'ejs')
