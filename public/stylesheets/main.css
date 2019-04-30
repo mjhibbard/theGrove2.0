@@ -391,6 +391,11 @@ body {
   margin: 1vw 2vw 2vw;
   color: #1a1a1a;
 }
+.about-page-copy__wrap {
+  line-height: 1.75;
+  letter-spacing: 0.5px;
+  margin: 8vw auto;
+}
 .about-page-copy__title {
   font-size: 4.5vw;
 }
