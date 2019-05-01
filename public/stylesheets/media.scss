@@ -352,49 +352,76 @@
     width: 70%;
     padding: 10vw 10vw 5vw 4vw;
   }
+  .about-page-copy__wrap {
+    margin: 3vw auto;
+  }
   .about-page__copy {
-    font-size: 1.15vw;
+    font-size: 1.5vw;
     margin: 1vw 2vw 2vw;
+    padding: 0;
   }
   .about-page-copy__title {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
+    margin-bottom: 0;
   }
   .about-page__statement {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
+    margin: 0 auto;
   }
 
   /* Call Page Styles */
-  .call-page-item__wrap {
-    padding: 2vw 0 2vw 2vw;
+  .call-page {
+    &__header {
+      color: white;
+      text-transform: uppercase;
+      font-size: 15vw;
+      width: 30%;
+      padding: 6vw 0 2vw 10vw;
+
+      &-wrap {
+        // background: url("../images/Andy-preaching.jpg");
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        box-shadow: inset 0 -10vw 10vw 0 black;
+      }
+      &-copy {
+        font-size: 2vw;
+        padding: 3vw;
+      }
+    }
+
+    &-item {
+      &__wrap {
+        padding: 2vw 0 2vw 1vw;
+      }
+
+      &__img {
+        display: none;
+      }
+      &__copy {
+        font-size: 1.5vw;
+        text-align: left;
+    
+        &-verse {
+          border-bottom: none;
+          padding: 1vw 0;
+        }
+        &-response {
+          padding: 0 .5vw;
+        }
+      }
+    }
+
+    &-section {
+      &__wrap {
+        display: flex;
+        flex-direction: row;
+        margin: 5vw 3vw;
+        border-bottom: 0.75vw solid var(--main-green);
+      }
+    }
   }
-  .call-page-item__img {
-    display: none;
-  }
-  .call-page__header-wrap {
-    background: url("../images/Andy-preaching.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: inset 0 -10vw 10vw 0 black;
-  }
-  .call-page__header {
-    color: white;
-    text-transform: uppercase;
-    font-size: 15vw;
-    width: 30%;
-    padding: 6vw 0 2vw 10vw;
-  }
-  .call-page__header-copy {
-    font-size: 2vw;
-    text-align: center;
-    padding: 3vw;
-    background-color: black;
-    color: white;
-  }
-  .call-page-section__wrap {
-    display: flex;
-    margin: 5vw 3vw;
-    border-bottom: 0.75vw solid var(--main-green);
-  }
+  
   .call-page-section__header {
     font-size: 4vw;
     padding: 2vw;
@@ -446,9 +473,7 @@
   .call-page-section__image {
     width: 100%;
   }
-  .call-page-item__copy {
-    font-size: 1.5vw;
-  }
+
 
   /*Footer Styles */
   .footer__wrap {
@@ -498,5 +523,22 @@
   }
   .footer-donate-button:hover {
     border-radius: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-page {
+    &__statement {
+      font-size: 2.5vw;
+    }
+    &-copy__wrap {
+      margin: 2vw auto;
+    }
+    &__copy {
+      font-size: 1.15vw;
+    }
+    &-copy__title {
+      font-size: 1.5vw;
+    }
   }
 }

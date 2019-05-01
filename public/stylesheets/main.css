@@ -390,6 +390,7 @@ body {
   font-size: 3.15vw;
   margin: 1vw 2vw 2vw;
   color: #1a1a1a;
+  padding: 0 4vw;
 }
 .about-page-copy__wrap {
   line-height: 1.75;
@@ -398,11 +399,12 @@ body {
 }
 .about-page-copy__title {
   font-size: 4.5vw;
+  margin-bottom: 4vw;
 }
 .about-page__statement {
   font-size: 5.5vw;
   text-transform: capitalize;
-  margin: 0 auto;
+  margin: 0 auto 4vw auto;
 }
 
 /* Call Page Styles */
