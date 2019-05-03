@@ -1,5 +1,7 @@
 # todo for this website
 
+*Crop Golf7.jpg to remove girl to the side and use for image 3 home page
+
 *Set spans on call page on each of the Verse and Response texts, find prominent image for display on mobile size and insert into ejs file for no display on larger-than-mobile sizes.
 
 *mobile friendly/optimize
