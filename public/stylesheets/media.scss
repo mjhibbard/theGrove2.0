@@ -346,7 +346,17 @@
   .about-page__sidebar {
     display: flex;
     width: 30%;
+    height: unset;
+    background-image: url("../images/sidepic.jpg");
+    background-position: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
     box-shadow: inset -7vw 2vw 8vw -2vw var(--bg-white-gray);
+    position: unset;
+    z-index: 0;
+    opacity: 1;
+    transition: all 0.3s ease;
+    filter: blur(2.5px);
   }
   .about-page__wrap {
     width: 70%;

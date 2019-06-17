@@ -166,7 +166,13 @@ body {
   margin-bottom: 5vw;
 }
 .main-page__card-img-1 {
-  background-image: url("../images//worship_image.jpg");
+  background-image: url("../images/potluck3.jpg");
+}
+.main-page__card-img-2 {
+  background-image: url("../images/worship_image.jpg");
+}
+.main-page__card-img-3 {
+  background-image: url("../images/Grove-miniGolf.jpg");
 }
 
 /*Story Page Styles */
@@ -375,12 +381,16 @@ body {
   margin-bottom: 3vw;
 }
 .about-page__sidebar {
-  width: 30%;
-  background-image: url("../images/sidepic.jpg");
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/cross.jpg");
   background-position: 70%;
   background-repeat: no-repeat;
   background-size: cover;
-  display: none;
+  position: fixed;
+  z-index: -1;
+  opacity: 0.09;
+  top: 55px;
 }
 .about-page__wrap {
   width: 100%;
