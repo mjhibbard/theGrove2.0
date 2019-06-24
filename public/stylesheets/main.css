@@ -418,6 +418,9 @@ body {
 }
 
 /* Call Page Styles */
+.call-page__wrap {
+  margin-bottom: 10vw;
+}
 .call-page-item__wrap {
   padding: 10vw 0 2vw 2vw;
 }
@@ -444,7 +447,7 @@ body {
   background-image: url("../images/verse18.jpg");
 }
 .call-page-item__img-6 {
-  background-image: url("../images/verse19.jpg");
+  background-image: url("../images/verse19-crop.jpg");
 }
 .call-page-item__img-7 {
   background-image: url("../images/verse20-forreals.jpg");
@@ -582,8 +585,8 @@ body {
   text-shadow: 0 7px 17px rgba(0,0,0,0.4);
 }
 .footer-img__wrap {
-  width: 50%;
-  margin: 0 auto;
+  width: 40%;
+  margin: 0 auto 2vw;
 }
 .footer-img__img {
   width: 100%;
@@ -593,8 +596,8 @@ body {
 } */
 .footer-copyright__copy,
 .footer-copyright__copy a {
-  padding: 2vw 0;
-  font-size: 1vw;
+  margin: 0 auto;
+  font-size: 3.5vw;
   color: white;
 }
 .footer-donate-button {
@@ -603,7 +606,10 @@ body {
   font-size: 7vw;
   color: var(--main-green);
   width: 80%;
-  margin: 7vw auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7vw;
+  margin-bottom: 1vw;
   padding: 2vw;
   display: block;
   cursor: pointer;

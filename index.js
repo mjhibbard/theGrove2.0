@@ -1,7 +1,7 @@
 const express       = require("express");
 const path          = require("path");
 const sass          = require("node-sass-middleware");
-const PORT          = process.env.PORT || 3000;
+const PORT          = process.env.PORT || 3040;
 const destPath      = path.join(__dirname, 'public');
 
 
@@ -28,6 +28,7 @@ express()
     .get('/showcase', (req, res) => res.render('showcase'))
     .get('/splash', (req, res) => res.render('splash'))
     .get('/media', (req, res) => res.redirect('/about'))
+    .get('*', (req, res) => res.render('404'))
     .listen(PORT, (req, res) => console.log(`The Grove server is running on http://localhost:${PORT}/`))
 
 //indygrove.church is site and through godaddy.com
