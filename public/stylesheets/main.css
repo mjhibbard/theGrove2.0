@@ -239,10 +239,10 @@ body {
   width: 100%;
 }
 .story-page-leader__card-headshot-1 {
-  background-image: url("../images/Andy-profile.jpg");
+  background-image: url("../images/Andy-Profile.jpg");
 }
 .story-page-leader__card-headshot-2 {
-  background-image: url("../images/mikeprofilepic.jpg");
+  background-image: url("../images/mikeprofilepic-crop.jpg");
 }
 .story-page-leader__card-headshot-3 {
   background-image: url("../images/leadershipteam_placeholder.jpg");
@@ -557,6 +557,11 @@ body {
   padding: 5vw 0;
   box-shadow: 0 100vh 0 100vh var(--main-green);
 }
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3vw;
+}
 .footer-icons__wrap {
   display: flex;
   flex-direction: column;
@@ -591,13 +596,12 @@ body {
 .footer-img__img {
   width: 100%;
 }
-/* .footer-copyright__wrap {
-	align-self: flex-end;
-} */
-.footer-copyright__copy,
-.footer-copyright__copy a {
+.footer-copyright__copy > a {
+	color: white;
+}
+.footer-copyright__copy {
   margin: 0 auto;
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   color: white;
 }
 .footer-donate-button {

@@ -1,8 +1,11 @@
+const http          = require("http");
 const express       = require("express");
 const path          = require("path");
 const sass          = require("node-sass-middleware");
-const PORT          = process.env.PORT || 3040;
+const PORT          = process.env.PORT || 3000;
+const favicon       = require("serve-favicon");
 const destPath      = path.join(__dirname, 'public');
+const server        = http.createServer(express());
 
 
 
@@ -11,10 +14,11 @@ express()
     .use(sass({
         src: __dirname + '/public',
         dest: destPath,
-        debug: true,
+        debug: false,
         outputStyle: "compressed",
         response: true
     }))
+    .use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')))
     .use(express.static(path.join(__dirname, 'public')))
     .set('views', path.join(__dirname, 'views'))
     .set('view engine', 'ejs')
@@ -30,11 +34,3 @@ express()
     .get('/media', (req, res) => res.redirect('/about'))
     .get('*', (req, res) => res.render('404'))
     .listen(PORT, (req, res) => console.log(`The Grove server is running on http://localhost:${PORT}/`))
-
-//indygrove.church is site and through godaddy.com
-//nodemon index.js
-
-//local tunnel
-//lt --port 3000
-
-//ssh -l username domain -p (port)
