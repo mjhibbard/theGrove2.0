@@ -351,12 +351,11 @@
     background-position: 70%;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset -7vw 2vw 8vw -2vw var(--bg-white-gray);
     position: unset;
     z-index: 0;
-    opacity: 1;
+    opacity: 0.5;
     transition: all 0.3s ease;
-    filter: blur(2.5px);
+    filter: contrast(1.5);
   }
   .about-page__wrap {
     width: 70%;
@@ -495,8 +494,7 @@
   .footer__wrap {
     display: flex;
     flex-direction: column;
-    // justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 5vw;
     box-shadow: 0 100vh 0 100vh var(--main-green);
   }
@@ -528,7 +526,7 @@
   }
   .footer-copyright__copy {
     margin: 0;
-    padding: 2vw 0;
+    padding: 1vw 3vw 2vw 3vw;
     font-size: 1vw;
     color: white;
   }

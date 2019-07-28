@@ -4,6 +4,7 @@
   "description": "The Grove Community Church Website rework and redesign",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,8 @@
     "http": "0.0.0",
     "node-sass-middleware": "^0.11.0",
     "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0"
   }
 }
