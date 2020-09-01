@@ -18,7 +18,7 @@ express()
       response: true,
     })
   )
-  .use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')))
+  .use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ICO')))
   .use(express.static(path.join(__dirname, 'public')))
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
